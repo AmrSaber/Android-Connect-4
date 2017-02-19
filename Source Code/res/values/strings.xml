@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Connect 4</string>
+
+    <string name="play">Play Game</string>
+    <string name="stat">Statistics</string>
+    <string name="options">Options</string>
+
+    <string name="easyMode">Easy</string>
+    <string name="mediumMode">Medium</string>
+    <string name="hardMode">Hard</string>
+
+    <string name="gamesWon">Games\nWon</string>
+    <string name="gamesLost">Games\nLost</string>
+    <string name="gamesTie">Ties</string>
+
+    <string name="setMode">Select Difficulty</string>
+    <string name="resetStat">Reset Statistics</string>
+
+    <string name="restart">Restart</string>
+
+    <string name="won">You Win</string>
+    <string name="lost">You Lose</string>
+    <string name="tie">Tie</string>
+
+    <string name="author">Amr Saber</string>
+</resources>

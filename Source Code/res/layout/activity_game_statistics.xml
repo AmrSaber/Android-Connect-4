@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stat"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/h1"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <!-- **************** [Easy Mode] ****************  -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/easyMode"
+                android:textSize="25sp"
+                android:textColor="@color/h2"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hBreakers"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesWon"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/easyWon"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesLost"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/easyLost"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesTie"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/easyTie"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+        <!-- **************** [Break] ****************  -->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/vBreakers"
+            android:layout_margin="15dp" />
+
+        <!-- **************** [Medium Mode] ****************  -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mediumMode"
+                android:textSize="25sp"
+                android:textColor="@color/h2"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hBreakers"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesWon"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medWon"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesLost"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medLost"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesTie"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medTie"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+        <!-- **************** [Break] ****************  -->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/vBreakers"
+            android:layout_margin="15dp" />
+
+        <!-- **************** [Hard Mode] ****************  -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hardMode"
+                android:textSize="25sp"
+                android:textColor="@color/h2"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hBreakers"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesWon"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hardWon"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesLost"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hardLost"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamesTie"
+                android:textSize="20sp"
+                android:textColor="@color/h3"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hardTie"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/score"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

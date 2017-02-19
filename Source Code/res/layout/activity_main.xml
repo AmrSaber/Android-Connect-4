@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/background"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playGame"
+                android:layout_gravity="center"
+                android:text="@string/play"
+                android:textSize="30sp"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/options"
+                android:layout_gravity="center"
+                android:text="@string/options"
+                android:textSize="20sp"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/red"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stat"
+                android:layout_gravity="center"
+                android:text="@string/stat"
+                android:textSize="20sp"
+                android:textColor="@color/green"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
